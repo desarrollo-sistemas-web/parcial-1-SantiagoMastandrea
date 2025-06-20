@@ -6,5 +6,10 @@
 //🔍 Hint: Puedes usar un bucle para iterar sobre el arreglo y sumar los elementos.
 
 function suma($numeros) {
-    // Tu código aquí
+    foreach ($numeros as $numeros) {
+        $sumas = 0;
+      $suma=  $sumas += $numeros;
+    
+    }
+    return $sumas;
 }

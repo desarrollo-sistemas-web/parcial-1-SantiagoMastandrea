@@ -6,5 +6,5 @@
 // 🧠 Pista: Puedes usar array_push o range.
 
 function generarSecuencia($n) {
-    // Tu código aquí
+    $n[] = $n;
 }

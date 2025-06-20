@@ -4,7 +4,17 @@
 // El número, debe ser mayor o igual a 0. Si es 0 o 1, el resultado debe ser 1.
 // Complejidad: ALTA (3 puntos)
 
-
-function calcularFactorial($numero) {
-    // Tu código aquí
+function calcularFactorial($numero)
+{
+    if ($numero >= 0) {
+        $i = 1;
+        while ($i <= $numero) {
+            $numero = $numero * $i;
+            $i++;
+            return $numero;
+        }
+    } elseif ($numero == 0 or $numero == 1) {
+        $resultado = (pow($numero, 0));
+        return $resultado;
+    }
 }
